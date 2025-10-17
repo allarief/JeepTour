@@ -3,21 +3,19 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  /* Warna sunrise & sunset vibes */
+  --background: linear-gradient(180deg, #FFD8A9 0%, #FFF5E1 50%, #FFECD1 100%);
+  --foreground: #2C2C2C;
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: inherit;
+  min-height: 100vh;
+  background-attachment: fixed; /* biar gradasinya tidak ikut scroll */
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @layer utilities {
