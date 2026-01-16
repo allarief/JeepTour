@@ -1,6 +1,7 @@
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import FloatingWhatsapp from "./components/FloatingWhatsapp";
 
 export const metadata = {
   title: "Jeep Tour",
@@ -10,12 +11,22 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" data-theme="light"> {/* ✅ kunci light mode */}
-      <body className="bg-white text-black">
+      <body className="bg-white text-black min-h-screen flex flex-col">
+        
+        {/* Navbar tetap di atas */}
         <Navbar />
-        {children}
+
+        {/* Konten utama mendorong footer ke bawah */}
+        <main className="flex-grow">
+          {children}
+        </main>
+
+        {/* Footer selalu di bawah */}
         <Footer />
+
+        <FloatingWhatsapp />
+
       </body>
     </html>
   );
 }
-
