@@ -29,11 +29,11 @@ export default function KontakPage() {
             <li>
               <span className="font-semibold block mb-1">WhatsApp</span>
               <Link
-                href="https://wa.me/628XXXXXXXXX"
+                href="https://wa.me/6283897920389"
                 target="_blank"
                 className="text-orange-700 hover:underline"
               >
-                +62 8xxx xxxx xxxx
+                +62 838 9792 0389
               </Link>
             </li>
 
@@ -60,7 +60,7 @@ export default function KontakPage() {
           </p>
 
           <Link
-            href="https://wa.me/628XXXXXXXXX"
+            href="https://wa.me/6283897920389"
             target="_blank"
             className="text-center bg-white text-orange-700 py-3 rounded-xl font-semibold hover:bg-orange-100 transition"
           >
@@ -136,7 +136,7 @@ export default function KontakPage() {
 
       {/* ================= STICKY MINI WA ================= */}
       <Link
-        href="https://wa.me/628XXXXXXXXX"
+        href="https://wa.me/6283897920389"
         target="_blank"
         className="
           fixed bottom-6 right-6 z-50

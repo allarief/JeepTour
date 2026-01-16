@@ -102,7 +102,7 @@ export default function BookingPage() {
                 </Link>
 
                 <Link
-                  href={`https://wa.me/628XXXXXXXXX?text=Halo,%20saya%20ingin%20booking%20${encodeURIComponent(
+                  href={`https://wa.me/6283897920389?text=Halo,%20saya%20ingin%20booking%20${encodeURIComponent(
                     pkg.name
                   )}`}
                   target="_blank"
@@ -131,7 +131,7 @@ export default function BookingPage() {
         </p>
 
         <Link
-          href="https://wa.me/628XXXXXXXXX"
+          href="https://wa.me/6283897920389"
           target="_blank"
           className="
             inline-block px-8 py-3 rounded-xl

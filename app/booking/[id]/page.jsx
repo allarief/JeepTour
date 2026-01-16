@@ -53,7 +53,7 @@ export default function PackageDetail({ params }) {
 
         <div className="flex flex-wrap gap-4">
           <Link
-            href={`https://wa.me/628XXXXXXXXX?text=Halo,%20saya%20ingin%20booking%20${encodeURIComponent(
+            href={`https://wa.me/6283897920389?text=Halo,%20saya%20ingin%20booking%20${encodeURIComponent(
               pkg.name
             )}`}
             target="_blank"

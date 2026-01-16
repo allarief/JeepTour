@@ -54,11 +54,11 @@ const Footer = () => {
             <li>Kintamani, Bangli – Bali</li>
             <li>
               <Link
-                href="https://wa.me/628XXXXXXXXX"
+                href="https://wa.me/6283897920389"
                 target="_blank"
                 className="hover:text-green-400 transition"
               >
-                WhatsApp: +62 8xxx xxxx xxxx
+                WhatsApp: +62 838 9792 0389
               </Link>
             </li>
             <li className="text-gray-400">
